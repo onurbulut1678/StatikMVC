@@ -1,0 +1,149 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>Onur Bulut - Profil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <meta name="keywords" content="Onur Bulut, Profile, Portfolio" />
+
+    <link href="/web/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/web/css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Düzenlemeler -->
+    <style>
+        /* Dış beyaz alan */
+        .center-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 40px 32px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        /* İç kutu */
+        .profile-main {
+            width: 100%;
+            padding: 32px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+        }
+
+        .address {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .address-item {
+            margin-bottom: 8px;
+        }
+
+            .address-item b {
+                display: inline-block;
+                min-width: 140px;
+            }
+
+            .address-item a {
+                text-decoration: none;
+                color: #007bff;
+            }
+
+                .address-item a:hover {
+                    text-decoration: underline;
+                }
+
+        .section {
+            margin-top: 32px;
+        }
+
+        .profile-pic img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .w3ls_banner_info h1 {
+            margin-bottom: 16px;
+        }
+
+        .footer-w3 {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- main -->
+    <div class="center-container">
+        <div class="w3ls_banner_info">
+            <h1>Onur Bulut</h1>
+
+            <div class="profile">
+                <div class="wrap">
+                    <div class="profile-main">
+                        <div class="profile-pic wthree">
+                            <img src="~/web/images/BlogFoto.jpg" alt="Onur Bulut profil fotoğrafı">
+                            <h3>HAKKIMDA</h3>
+
+                            <div class="w3ls-agile-left">
+                                <ul class="address">
+                                    <li class="address-item"><b>PROJELERİM</b></li>
+                                    <li class="address-item">
+                                        <a href="https://github.com/onurbulut1678/DynamicWebAppMVC">
+                                            Login Panelli To Do List
+                                        </a>
+                                    </li>
+                                    <li class="address-item">
+                                        <a href="https://github.com/onurbulut1678/OrderShippingSystem.APIGIT">
+                                            Kargo Yönetim Paneli
+                                        </a>
+                                    </li>
+                                    <li class="address-item">
+                                        <a href="https://github.com/onurbulut1678/Employee-Management-System">
+                                            Çalışan Yönetim Paneli
+                                        </a>
+                                    </li>
+                                    <li class="address-item">
+                                        <b>Telefon:</b> 0537 840 49 89
+                                    </li>
+                                    <li class="address-item">
+                                        <b>E-posta:</b> onurbulut2002@hotmail.com
+                                    </li>
+                                </ul>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <!-- ÖZGEÇMİŞ -->
+                        <div class="profile-ser section">
+                            <h4>Özgeçmiş</h4>
+                            <p class="mb-0">
+                                Bilgisayar Mühendisliği 4. sınıf öğrencisiyim. Yazılım geliştirme alanında özellikle .NET teknolojileri üzerine çalışıyor ve katmanlı mimari, CQRS, SOLID prensipleri gibi modern yaklaşımları projelerimde uyguluyorum.
+                                Martur Fompak International ve Adesso Turkey’de .NET developer stajları yaparak kurumsal projelerde deneyim kazandım.
+                                Hem akademik projelerimde hem de bireysel çalışmalarımda backend geliştirme, API tasarımı ve veri tabanı yönetimi konularında güçlü bir altyapıya sahibim.
+                                Öğrenmeye açık, takım çalışmasına yatkın ve yazılım geliştirmeye heyecanla bağlı bir geliştiriciyim.
+                            </p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <div class="footer-w3">
+                <p>&copy; @DateTime.Now.Year StatikMVC. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </div>
+    <!-- //main -->
+
+    <script src="/web/js/jquery.min.v3.js"></script>
+</body>
+</html>
